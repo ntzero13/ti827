@@ -38,7 +38,7 @@ public class Introjava {
                 + (metros * 10) + " (dm)\n"+
                 + (metros * 100) + "(cm)\n"+
                 + (metros * 1000) + "(mm)\n"+
-                +(metros * 10000) + "(km)\n");
+                +(metros * 10000) + "(km!)\n");
     }
 
     private static void convertePesos() {
