@@ -38,11 +38,18 @@ public class Introjava {
                 + (metros * 10) + " (dm)\n"+
                 + (metros * 100) + "(cm)\n"+
                 + (metros * 1000) + "(mm)\n"+
-                +(metros * 10000) + "(km!)\n");
+                +(metros * 10000) + "(km)\n");
     }
 
     private static void convertePesos() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    float peso;
+        System.out.println("Insira um peso em Kg:");
+        peso = ler.nextFloat();
+        System.out.println(peso+"(Kg)  equivale a:\n "+
+                + (peso*10) + " (dg)\n"+
+                + (peso*100) + "(cg)\n"+
+                + (peso*1000) + "(g)\n"+
+                +(peso*10000) + "(ton)\n");
     }
 
     private static void converteMoedas() {
